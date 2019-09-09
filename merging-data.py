@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-os.chdir('c:/users/nicolas/documents/data/ieee-fraud-detection')
+os.chdir('c:/users/<REDACTED>/ieee-fraud-detection')
 
 files = [elem for item in os.listdir() for elem in item.split() if elem.endswith('csv')]
 
